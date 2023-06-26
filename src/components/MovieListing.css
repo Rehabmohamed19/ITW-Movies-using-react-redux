@@ -1,0 +1,19 @@
+.movie-list{
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.movie-list h2{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px 0;
+    align-items: center;
+    color: var(--font-secondary);
+    font-weight: 700;
+}
+
+.movie-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap :15px;
+}

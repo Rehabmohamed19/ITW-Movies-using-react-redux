@@ -1,0 +1,22 @@
+.logo{
+    color:  var(--font-primary);
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .header{
+  background-color: var(--secondary-color);
+  height: 72px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .user-image,
+  .user-image img{
+    width: 47px;
+    height: 40px;
+    /* background: transparent; */
+    background-color: var(--primary-color);
+  }
